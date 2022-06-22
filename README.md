@@ -9,7 +9,7 @@
 
 ## 💇🏼 Sobre o template
 
-Essa template faz parte de um desafio com o intuito de testar a capacidade de implementar recursos e renderizar informações dinâmicas e estáticas em componentes reutilizáveis usando ReactJs como base.
+Esse template faz parte de um desafio com o intuito de testar a capacidade de implementar recursos e renderizar informações dinâmicas e estáticas em componentes reutilizáveis usando ReactJs como base.
 
 Na pasta do projeto você encontrará a pasta `public` com o favicon e a pasta `src/assets` com o logotipo da empresa.
 
@@ -23,17 +23,19 @@ Imagens da aplicação em operação, para ser utilizada como base.
 </p>
 
 <p align="center">
+<img alt="Computer" src="https://res.cloudinary.com/dvargas42/image/upload/v1655924722/sil-cards/001_dfv6vy.png" width="400px">
+<img alt="tabletView" src="https://res.cloudinary.com/dvargas42/image/upload/v1655925049/sil-cards/004_rdpxdn.png" width="400px">
+</p>
+
+<p align="center">
 <img alt="ScreenShot05" src="https://res.cloudinary.com/dvargas42/image/upload/v1646156245/sil-cards/004_xynwut.png" width="266px">
-
 <img alt="ScreenShot04" src="https://res.cloudinary.com/dvargas42/image/upload/v1646156245/sil-cards/003_ftvclx.png" width="266px">
-
 <img alt="ScreenShot03" src="https://res.cloudinary.com/dvargas42/image/upload/v1646156245/sil-cards/005_tkxhls.png" width="266px">
-
 </p>
 
 ## 🚀 Tecnologias requeridas
 
-Technologies that I used to develop this web application
+Tecnologias a serem utilizadas no desenvolvimento:
 
 - [ReactJS](https://reactjs.org/) ou [NextJS](https://nextjs.org/docs)
 - [MirageJS](https://miragejs.com/) ou [Json Server](https://github.com/typicode/json-server)
@@ -43,7 +45,7 @@ Technologies that I used to develop this web application
 - [Yarn](https://classic.yarnpkg.com/)
 - [React Icons](https://react-icons.github.io/react-icons/) (opcional)
 
-### 💻 Requisitos
+## 💻 Requisitos
 
 - Utilizar o Yarn com gerênciador de pacotes;
 - Utilizar a biblioteca de componentes Chakra-UI;
@@ -59,7 +61,7 @@ Technologies that I used to develop this web application
 - O projeto deve possuir tela responsiva, ou seja, versões para telas menores;
 - Pequenas alterações no layout como ícones, fontes, textos etc, não serão um problema;
 
-## 🚀 Sobre a avaliação
+## 📝 Sobre a avaliação
 
 Será avaliado o seguinte:
 
@@ -75,8 +77,9 @@ Será avaliado o seguinte:
 ## 🚚️ Sobre a entrega
 
 - Os commits de cada alteração devem ser feitos atômicamente e em inglês;
-- O projeto deve ser subido em repositório próprio e seu link enviado por e-mail dentro do prazo estipulado;
+- No README deve estar descrito como instalar e executar o projeto;
+- O projeto deve ser subido em repositório próprio (publico) e seu link enviado por e-mail dentro do prazo estipulado;
 
-## 📝 Licença
+## 📄 Licença
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
