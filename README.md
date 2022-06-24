@@ -48,20 +48,20 @@ Tecnologias a serem utilizadas no desenvolvimento:
 
 ## 💻 Requisitos
 
-- Utilizar o Yarn com gerênciador de pacotes;
+- Utilizar o Yarn com gerenciador de pacotes;
 - Utilizar ReactJS ou NextJS;
-- Utilizar preferêncialmente a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
+- Utilizar preferencialmente a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
 - Utilizar a biblioteca Axios para realizar requisições às APIs;
 - O código deve ser totalmente em Typescript;
 - A interface deve ser o mais similar possível as imagens apresentadas na seção de Screenshots;
-- A componentização e reutilização de componentes deve ser utilizada ao máximo, utilizando o bom senso;
+- A componentização dos artefatos e o reaproveitamento dos mesmos deve ser ao máximo, obviamente utilizando o bom senso;
 - As requisições devem compartilhar alguma lógica ao acessar diferentes endpoints;
 - Utilizar MirageJs ou Json-Server como mocked API, onde poderão trazer qualquer dado sobre casos COVID-19, horário local, noticias etc;
 - Os Selects nos dois primeiros cards, devem alterar algum parâmetro da API e atualizar os dados do corpo dos cards;
-- O corpo do card deve possuir um loader (spinner) ao ser realizada a requisição;
-- Caso a requisição falhe deve ser mostrado um botão para recarregamento;
-- O projeto deve possuir tela responsiva, ou seja, versões para telas menores como tabletes e celulares;
-- Pequenas alterações no layout como ícones, fontes, textos etc, não serão um problema;
+- O corpo do card deve possuir um loader (spinner) ao ser realizada a requisição e desaparecer quando os dados já estiverem disponíveis;
+- Caso a requisição falhe deve ser mostrado um botão para recarregar os dados;
+- O projeto deve possuir tela responsiva, ou seja, versões para telas menores como tablets e celulares;
+- Pequenas alterações no layout como ícones, fontes, textos, arredondamento, sombras etc, não serão um problema;
 
 ## 📝 Sobre a avaliação
 
@@ -70,17 +70,17 @@ Será avaliado o seguinte:
 - De caráter eliminatório, o código deve executar corretamente em sistemas Linux (caso utilize Windows a dica é desenvolver em WSL);
 - Implementação dos requisitos;
 - Reutilização dos componentes;
-- Visual condizente com as imagens do Screenshot;
-- Indicadores visuais de carregamento, loaders;
-- Responsividade;
+- Visual condizente com as imagens da secção de Screenshots;
+- Indicadores visuais de carregamento de dados, loaders;
+- Responsividade da tela;
 - Código em inglês;
 - Contarão como “extras” tratativa de erros e testes unitários.
 
 ## 🚚️ Sobre a entrega
 
-- Os commits de cada alteração devem ser feitos atômicamente e em inglês;
-- No README do sua implementação deve estar descrito como instalar e executar o projeto, inclusive os teste, caso haja;
-- O projeto deve ser subido em repositório próprio, deve estar público e seu link deverá ser enviado por e-mail
+- Os commits de cada alteração devem ser feitos atomicamente e em inglês;
+- No README da sua implementação deve estar descrito como instalar e executar o projeto, inclusive os teste, caso haja;
+- O projeto deve ser subido em repositório próprio, deve estar público e seu link deverá ser enviado por e-mail para avaliação;
 - o projeto deve ser entregue dentro do prazo estipulado;
 
 ## 📄 Licença
