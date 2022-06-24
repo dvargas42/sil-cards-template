@@ -9,7 +9,7 @@
 
 ## 💇🏼 Sobre o template
 
-Esse template faz parte de um desafio com o intuito de testar a capacidade de implementar recursos e renderizar informações dinâmicas e estáticas em componentes reutilizáveis usando ReactJs como base.
+Esse template faz parte de um desafio para testar a capacidade de implementar recursos e renderizar informações dinâmicas e estáticas em componentes reutilizáveis usando ReactJs como base.
 
 Na pasta do projeto você encontrará a pasta `public` com o favicon e a pasta `src/assets` com o logotipo da empresa.
 
@@ -41,35 +41,37 @@ Tecnologias a serem utilizadas no desenvolvimento:
 - [MirageJS](https://miragejs.com/) ou [Json Server](https://github.com/typicode/json-server)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Axios](https://github.com/axios/axios)
-- [Chakra-UI](https://chakra-ui.com/)
+- [Chakra-UI](https://chakra-ui.com/) ou HTML em JS
 - [Yarn](https://classic.yarnpkg.com/)
 - [React Icons](https://react-icons.github.io/react-icons/) (opcional)
+- [Jest](https://jestjs.io/pt-BR/) (opcional)
 
 ## 💻 Requisitos
 
 - Utilizar o Yarn com gerênciador de pacotes;
-- Utilizar a biblioteca de componentes Chakra-UI;
+- Utilizar ReactJS ou NextJS;
+- Utilizar preferêncialmente a biblioteca de componentes Chakra-UI HTML em JS;
 - Utilizar a biblioteca Axios para realizar requisições às APIs;
-- O projeto deve ser feito em 100% Typescript;
-- O projeto deve ser o mais similar possível as imagens apresentadas na seção de Screenshots;
-- Aplicar componentização e reutilizar componentes ao máximo que faça sentido para você;
+- O código deve ser totalmente em Typescript;
+- A interface deve ser o mais similar possível as imagens apresentadas na seção de Screenshots;
+- A componentização e reutilização de componentes deve ser utilizada ao máximo, utilizando o bom senso;
 - As requisições devem compartilhar alguma lógica ao acessar diferentes endpoints;
-- Utilizar MirageJs ou Json-Server como mocked API trazendo qualquer dado sobre casos COVID-19, horário local, noticias etc;
-- O corpo do card deve possuir um Load de dados;
+- Utilizar MirageJs ou Json-Server como mocked API, onde poderão trazer qualquer dado sobre casos COVID-19, horário local, noticias etc;
 - Os Selects nos dois primeiros cards, devem alterar algum parâmetro da API e atualizar os dados do corpo dos cards;
+- O corpo do card deve possuir um loader (spinner) ao ser realizada a requisição;
 - Caso a requisição falhe deve ser mostrado um botão para recarregamento;
-- O projeto deve possuir tela responsiva, ou seja, versões para telas menores;
+- O projeto deve possuir tela responsiva, ou seja, versões para telas menores como tabletes e celulares;
 - Pequenas alterações no layout como ícones, fontes, textos etc, não serão um problema;
 
 ## 📝 Sobre a avaliação
 
 Será avaliado o seguinte:
 
-- Se o código executa corretamente em sistemas Linux (se utilizar Windows a dica é desenvolver em WSL);
+- De caráter eliminatório, o código deve executar corretamente em sistemas Linux (caso utilize Windows a dica é desenvolver em WSL);
 - Implementação dos requisitos;
 - Reutilização dos componentes;
-- Visual condizente;
-- Indicadores visuais de carregamento;
+- Visual condizente com as imagens do Screenshot;
+- Indicadores visuais de carregamento, loaders;
 - Responsividade;
 - Código em inglês;
 - Contarão como “extras” tratativa de erros e testes unitários.
@@ -77,8 +79,9 @@ Será avaliado o seguinte:
 ## 🚚️ Sobre a entrega
 
 - Os commits de cada alteração devem ser feitos atômicamente e em inglês;
-- No README deve estar descrito como instalar e executar o projeto;
-- O projeto deve ser subido em repositório próprio (publico) e seu link enviado por e-mail dentro do prazo estipulado;
+- No README do sua implementação deve estar descrito como instalar e executar o projeto, inclusive os teste, caso haja;
+- O projeto deve ser subido em repositório próprio, deve estar público e seu link deverá ser enviado por e-mail
+- o projeto deve ser entregue dentro do prazo estipulado;
 
 ## 📄 Licença
 
