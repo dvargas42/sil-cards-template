@@ -50,7 +50,7 @@ Tecnologias a serem utilizadas no desenvolvimento:
 
 - Utilizar o Yarn com gerênciador de pacotes;
 - Utilizar ReactJS ou NextJS;
-- Utilizar preferêncialmente a biblioteca de componentes Chakra-UI HTML em JS;
+- Utilizar preferêncialmente a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
 - Utilizar a biblioteca Axios para realizar requisições às APIs;
 - O código deve ser totalmente em Typescript;
 - A interface deve ser o mais similar possível as imagens apresentadas na seção de Screenshots;
