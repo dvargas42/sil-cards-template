@@ -48,20 +48,20 @@ Tecnologias a serem utilizadas no desenvolvimento:
 
 ## 💻 Requisitos
 
-- Utilizar o Yarn com gerenciador de pacotes;
-- Utilizar ReactJS ou NextJS;
-- Utilizar preferencialmente a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
-- Utilizar a biblioteca Axios para realizar requisições às APIs;
+- Deve-se utilizar Yarn com gerenciador de pacotes;
+- Deve-se utilizar ReactJS ou NextJS;
+- Deve-se utilizar, preferencialmente, a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
+- Deve-se Utilizar a biblioteca Axios para realizar requisições às APIs;
 - O código deve ser totalmente em Typescript;
 - A interface deve ser o mais similar possível as imagens apresentadas na seção de Screenshots;
 - A componentização dos artefatos e o reaproveitamento dos mesmos deve ser ao máximo, obviamente utilizando o bom senso;
 - As requisições devem compartilhar alguma lógica ao acessar diferentes endpoints;
-- Utilizar MirageJs ou Json-Server como mocked API, onde poderão trazer qualquer dado sobre casos COVID-19, horário local, noticias etc;
-- Os Selects nos dois primeiros cards, devem alterar algum parâmetro da API e atualizar os dados do corpo dos cards;
-- O corpo do card deve possuir um loader (spinner) ao ser realizada a requisição e desaparecer quando os dados já estiverem disponíveis;
-- Caso a requisição falhe deve ser mostrado um botão para recarregar os dados;
+- Utilizar MirageJs ou Json-Server como mocked API, onde poderão trazer qualquer dado sobre casos de COVID-19, horário local, noticias etc;
+- Os Selects nos dois primeiros cards, devem alterar algum parâmetro da requisição a API e atualizar os dados do corpo dos cards;
+- O corpo do card deve possuir um loader (spinner) para quando houver requisição e deve desaparecer quando os dados já estiverem disponíveis;
+- Caso a requisição falhe, deve ser mostrado um botão para fazer nova requisição;
 - O projeto deve possuir tela responsiva, ou seja, versões para telas menores como tablets e celulares;
-- Pequenas alterações no layout como ícones, fontes, textos, arredondamento, sombras etc, não serão um problema;
+- Pequenas alterações no layout como ícones, fontes, textos, arredondamentos, sombras etc, não serão um problema;
 
 ## 📝 Sobre a avaliação
 
