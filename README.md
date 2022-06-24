@@ -48,15 +48,15 @@ Tecnologias a serem utilizadas no desenvolvimento:
 
 ## 💻 Requisitos
 
-- Deve-se utilizar Yarn com gerenciador de pacotes;
-- Deve-se utilizar ReactJS ou NextJS;
-- Deve-se utilizar, preferencialmente, a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
-- Deve-se Utilizar a biblioteca Axios para realizar requisições às APIs;
+- Deve ser utilizado Yarn com gerenciador de pacotes;
+- Deve ser utilizado ReactJS ou NextJS;
+- Deve ser utilizado, preferencialmente, a biblioteca de componentes Chakra-UI, no entanto poderá ser utilizado HTML em JS;
+- Deve ser utilizada a biblioteca Axios para realizar requisições às APIs;
 - O código deve ser totalmente em Typescript;
 - A interface deve ser o mais similar possível as imagens apresentadas na seção de Screenshots;
 - A componentização dos artefatos e o reaproveitamento dos mesmos deve ser ao máximo, obviamente utilizando o bom senso;
 - As requisições devem compartilhar alguma lógica ao acessar diferentes endpoints;
-- Utilizar MirageJs ou Json-Server como mocked API, onde poderão trazer qualquer dado sobre casos de COVID-19, horário local, noticias etc;
+- Deve ser utilizado o MirageJs ou Json-Server como mocked API, onde poderão trazer qualquer dado sobre casos de COVID-19, horário local, noticias etc;
 - Os Selects nos dois primeiros cards, devem alterar algum parâmetro da requisição a API e atualizar os dados do corpo dos cards;
 - O corpo do card deve possuir um loader (spinner) para quando houver requisição e deve desaparecer quando os dados já estiverem disponíveis;
 - Caso a requisição falhe, deve ser mostrado um botão para fazer nova requisição;
@@ -67,7 +67,7 @@ Tecnologias a serem utilizadas no desenvolvimento:
 
 Será avaliado o seguinte:
 
-- De caráter eliminatório, o código deve executar corretamente em sistemas Linux (caso utilize Windows a dica é desenvolver em WSL);
+- De caráter eliminatório, o código deve executar em sistemas Linux (caso utilize Windows a dica é desenvolver em WSL);
 - Implementação dos requisitos;
 - Reutilização dos componentes;
 - Visual condizente com as imagens da secção de Screenshots;
